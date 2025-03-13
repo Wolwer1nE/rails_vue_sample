@@ -15,8 +15,8 @@ This is a template for a Rails 8 application with React integration. Follow the 
 1. Clone the repository:
 
     ```sh
-    git clone <repository-url>
-    cd <repository-name>
+    git clone https://github.com/Wolwer1nE/rails_react_sample
+    cd rails_react_sample
     ```
 
 2. Install dependencies:
