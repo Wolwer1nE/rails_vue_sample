@@ -1,6 +1,6 @@
-# Rails 8 + React Template
+# Rails 8 + Vue Template
 
-This is a template for a Rails 8 application with React integration. Follow the instructions below to set up and run the application.
+This is a template for a Rails 8 application with Vue integration. Follow the instructions below to set up and run the application.
 
 ## Prerequisites
 
@@ -15,8 +15,8 @@ This is a template for a Rails 8 application with React integration. Follow the 
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/Wolwer1nE/rails_react_sample
-    cd rails_react_sample
+    git clone https://github.com/Wolwer1nE/rails_vue_sample
+    cd rails_vue_sample
     ```
 
 2. Install dependencies:
@@ -43,7 +43,7 @@ This is a template for a Rails 8 application with React integration. Follow the 
 
 ## Directory Structure
 
-- `app/javascript`: React components and JavaScript files
+- `app/javascript`: Vue components and JavaScript files
 - `app/views`: Rails views
 - `config`: Configuration files
 - `db`: Database migrations and schema
@@ -51,7 +51,6 @@ This is a template for a Rails 8 application with React integration. Follow the 
 ## Additional Resources
 
 - [Rails Guides](https://guides.rubyonrails.org/)
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
 
 ## License
 

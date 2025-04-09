@@ -1,23 +1,29 @@
-import React from 'react';
-function App() {
-  const click = ()=>{
-      alert("Hello from React!")
-  }
-  return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-xl text-amber-700">Hello, world!
+<template>
+  <div class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <h1 class="text-xl text-amber-700">Hello, world!</h1>
+    <p class="text-gray-700">This is a simple Vue app using Tailwind CSS.</p>
+    <ul class="list-disc list-inside">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <button @click="handleClick" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Click Me
+    </button>
+    <p class="text-gray-500">This is a paragraph with some gray text.</p>
+  </div>
+</template>
 
-      <p className="text-gray-700">This is a simple React app using Tailwind CSS.</p>
-      <ul className="list-disc list-inside">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-      </ul>
-      <button onClick={click} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Click Me
-      </button>
-      <p className="text-gray-500">This is a paragraph with some gray text.</p>  </h1>
-    </div>
-  );
-}
-export {App}
+<script>
+export default {
+  name: "App",
+  methods: {
+    handleClick() {
+      alert("Hello from Vue!");
+    },
+  },
+};
+</script>
+
+<style scoped>
+</style>
